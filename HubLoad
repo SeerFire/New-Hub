@@ -365,7 +365,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/g05mEMLH"))()
 })
 
 local ExtraTab = Window:CreateTab("Extra", 4483362458) -- Title, Image
-local ExtraSection = Tab:CreateSection("Main")
+local ExtraSection = ExtraTab:CreateSection("Main")
 
 local Slider = MainTab:CreateSlider({
    Name = "WalkSpeed Slider",
